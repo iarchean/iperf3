@@ -9,4 +9,4 @@ RUN apt-get update \
 # Expose the default iperf3 server port
 EXPOSE 5201
 
-ENTRYPOINT ["iperf3","s"]
+ENTRYPOINT ["iperf3","-s"]
